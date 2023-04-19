@@ -1,34 +1,16 @@
+
 {
+  "settingsInheritedFrom": "Dima2021/whitesource-config@master",
   "scanSettings": {
     "configMode": "LOCAL",
-    "configExternalURL": "",
-    "projectToken": "",
-    "baseBranches": [],
     "enableReachability": true
   },
-  "scanSettingsSAST": {
-    "enableScan": false,
-    "scanPullRequests": false,
-    "incrementalScan": true,
-    "baseBranches": [],
-    "snippetSize": 10
-  },
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
-  },
-  "issueSettings": {
-    "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
+  "scanSettings": {
+    "enableSAST": "true"
   },
   "remediateSettings": {
     "workflowRules": {
-      "enabled": true
+      "enabled": false
     }
   }
 }
