@@ -2,7 +2,7 @@
   "settingsInheritedFrom": "Dima2021/whitesource-config@master",
   "scanSettings": {
     "configMode": "LOCAL",
-    "enableReachability": true,
+    "enableReachability": true
   },
   "scanSettingsSAST": {
     "enableScan": true
