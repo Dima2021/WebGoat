@@ -3,7 +3,9 @@
   "scanSettings": {
     "configMode": "LOCAL",
     "enableReachability": true,
-    "enableSAST": "true"
+  },
+  "scanSettingsSAST": {
+    "enableScan": true
   },
   "remediateSettings": {
     "workflowRules": {
