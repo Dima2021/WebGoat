@@ -1,17 +1,23 @@
 {
   "settingsInheritedFrom": "Dima2021/whitesource-config@master",
-  "scanSettings": { 
+  "scanSettings": {
     "enableReachability": true
+  },
+  "checkRunSettings": {
+    "strictMode": "warning"
   },
   "scanSettingsSAST": {
     "enableScan": true
   },
   "remediateSettings": {
-    "workflowRules": {
-      "enabled": false
-    }
+  "workflowRules": {
+      "enabled": true
+  },
+  "enableRenovate": true,
+  "extends": [
+      "config:base",
+      "github>whitesource/merge-confidence:beta",
+      "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
+  ]
   }
 }
-
-
-
